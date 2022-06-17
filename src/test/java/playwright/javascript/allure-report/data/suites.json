@@ -1,0 +1,141 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Pixel 4 chrome",
+    "children" : [ {
+      "name" : "simplepage.spec.js",
+      "children" : [ {
+        "name" : "basic test",
+        "uid" : "4711425ccc780c00",
+        "parentUid" : "8be274c9efa104fe6f98676599fbc7d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632398846743,
+          "stop" : 1632398852033,
+          "duration" : 5290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "example test",
+        "uid" : "88d20defc4241716",
+        "parentUid" : "8be274c9efa104fe6f98676599fbc7d2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632398852033,
+          "stop" : 1632398857557,
+          "duration" : 5524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8be274c9efa104fe6f98676599fbc7d2"
+    } ],
+    "uid" : "eb213c9755d550ef0252768e9d95a1ba"
+  }, {
+    "name" : "Pixel 4 firefox",
+    "children" : [ {
+      "name" : "simplepage.spec.js",
+      "children" : [ {
+        "name" : "basic test",
+        "uid" : "8f0d41ecfaa04f0f",
+        "parentUid" : "4c18c7cbae98aadae2b3749fa9d545fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632398847389,
+          "stop" : 1632398851812,
+          "duration" : 4423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "example test",
+        "uid" : "b3d302671be40d7d",
+        "parentUid" : "4c18c7cbae98aadae2b3749fa9d545fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632398858411,
+          "stop" : 1632398859923,
+          "duration" : 1512
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c18c7cbae98aadae2b3749fa9d545fe"
+    } ],
+    "uid" : "53fd557d86e34189632615850d023a65"
+  }, {
+    "name" : "iPhone 11 webkit",
+    "children" : [ {
+      "name" : "simplepage.spec.js",
+      "children" : [ {
+        "name" : "basic test",
+        "uid" : "48f2c78d60882629",
+        "parentUid" : "ef34f0ad74675254b4fd78ce5fad3971",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632398848467,
+          "stop" : 1632398854231,
+          "duration" : 5764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "example test",
+        "uid" : "5e8464023bf0d8bc",
+        "parentUid" : "ef34f0ad74675254b4fd78ce5fad3971",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632398854231,
+          "stop" : 1632398857126,
+          "duration" : 2895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef34f0ad74675254b4fd78ce5fad3971"
+    } ],
+    "uid" : "23281da721fe28b6e510ba56488e095b"
+  }, {
+    "name" : "iPhone 11 chrome",
+    "children" : [ {
+      "name" : "simplepage.spec.js",
+      "children" : [ {
+        "name" : "basic test",
+        "uid" : "de0c3f4ee59c1b0a",
+        "parentUid" : "2956e790bee683abe14742efb36e518a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632398849614,
+          "stop" : 1632398852382,
+          "duration" : 2768
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "example test",
+        "uid" : "12996898b0c84277",
+        "parentUid" : "2956e790bee683abe14742efb36e518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632398852382,
+          "stop" : 1632398857194,
+          "duration" : 4812
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2956e790bee683abe14742efb36e518a"
+    } ],
+    "uid" : "4dbbbdfa5fd8d40406ef4342af71734a"
+  } ]
+}

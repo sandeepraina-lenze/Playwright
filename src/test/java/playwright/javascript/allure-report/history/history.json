@@ -1,0 +1,158 @@
+{
+  "Pixel 4 chrome simplepage.spec.js example test" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88d20defc4241716",
+      "status" : "failed",
+      "statusDetails" : "Snapshot comparison failed:\n\nExpected: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-Pixel-4-chrome\\landing-expected.png\nReceived: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-Pixel-4-chrome\\landing-actual.png\n    Diff: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-Pixel-4-chrome\\landing-diff.png",
+      "time" : {
+        "start" : 1632398852033,
+        "stop" : 1632398857557,
+        "duration" : 5524
+      }
+    } ]
+  },
+  "iPhone 11 chrome simplepage.spec.js example test" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12996898b0c84277",
+      "status" : "failed",
+      "statusDetails" : "Snapshot comparison failed:\n\nExpected: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-iPhone-11-chrome\\landing-expected.png\nReceived: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-iPhone-11-chrome\\landing-actual.png\n    Diff: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-iPhone-11-chrome\\landing-diff.png",
+      "time" : {
+        "start" : 1632398852382,
+        "stop" : 1632398857194,
+        "duration" : 4812
+      }
+    } ]
+  },
+  "Pixel 4 chrome simplepage.spec.js basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4711425ccc780c00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632398846743,
+        "stop" : 1632398852033,
+        "duration" : 5290
+      }
+    } ]
+  },
+  "iPhone 11 webkit simplepage.spec.js basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "48f2c78d60882629",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632398848467,
+        "stop" : 1632398854231,
+        "duration" : 5764
+      }
+    } ]
+  },
+  "iPhone 11 webkit simplepage.spec.js example test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e8464023bf0d8bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632398854231,
+        "stop" : 1632398857126,
+        "duration" : 2895
+      }
+    } ]
+  },
+  "Pixel 4 firefox simplepage.spec.js example test" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3d302671be40d7d",
+      "status" : "failed",
+      "statusDetails" : "browser.newContext: options.isMobile is not supported in Firefox",
+      "time" : {
+        "start" : 1632398858411,
+        "stop" : 1632398859923,
+        "duration" : 1512
+      }
+    } ]
+  },
+  "iPhone 11 chrome simplepage.spec.js basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de0c3f4ee59c1b0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632398849614,
+        "stop" : 1632398852382,
+        "duration" : 2768
+      }
+    } ]
+  },
+  "Pixel 4 firefox simplepage.spec.js basic test" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f0d41ecfaa04f0f",
+      "status" : "failed",
+      "statusDetails" : "browser.newContext: options.isMobile is not supported in Firefox",
+      "time" : {
+        "start" : 1632398847389,
+        "stop" : 1632398851812,
+        "duration" : 4423
+      }
+    } ]
+  }
+}

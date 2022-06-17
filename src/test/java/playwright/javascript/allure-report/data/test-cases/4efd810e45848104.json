@@ -1,0 +1,86 @@
+{
+  "uid" : "4efd810e45848104",
+  "name" : "basic test",
+  "fullName" : "basic test",
+  "historyId" : "Pixel 4 firefox simplepage.spec.js basic test",
+  "time" : {
+    "start" : 1632390980196,
+    "stop" : 1632390984923,
+    "duration" : 4727
+  },
+  "status" : "failed",
+  "statusMessage" : "browser.newContext: options.isMobile is not supported in Firefox",
+  "statusTrace" : "browser.newContext: options.isMobile is not supported in Firefox\n    at Object.context [as fn] (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\index.js:364:35)\n    at Fixture.setup (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\fixtures.js:73:73)\n    at FixtureRunner.setupFixtureForRegistration (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\fixtures.js:312:5)\n    at Fixture.setup (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\fixtures.js:58:19)\n    at FixtureRunner.setupFixtureForRegistration (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\fixtures.js:312:5)\n    at FixtureRunner.resolveParametersAndRunHookOrTest (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\fixtures.js:297:23)\n    at WorkerRunner._runTestWithBeforeHooks (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\workerRunner.js:449:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "browser.newContext: options.isMobile is not supported in Firefox",
+    "statusTrace" : "browser.newContext: options.isMobile is not supported in Firefox\n    at Object.context [as fn] (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\index.js:364:35)\n    at Fixture.setup (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\fixtures.js:73:73)\n    at FixtureRunner.setupFixtureForRegistration (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\fixtures.js:312:5)\n    at Fixture.setup (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\fixtures.js:58:19)\n    at FixtureRunner.setupFixtureForRegistration (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\fixtures.js:312:5)\n    at FixtureRunner.resolveParametersAndRunHookOrTest (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\fixtures.js:297:23)\n    at WorkerRunner._runTestWithBeforeHooks (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\workerRunner.js:449:7)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1632390980197,
+        "stop" : 1632390984922,
+        "duration" : 4725
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1632390984922,
+        "stop" : 1632390984923,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Pixel 4 firefox"
+  }, {
+    "name" : "suite",
+    "value" : "simplepage.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4efd810e45848104.json",
+  "parameterValues" : [ ]
+}

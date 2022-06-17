@@ -1,0 +1,167 @@
+{
+  "uid" : "376c82dd0ac1f87e",
+  "name" : "example test",
+  "fullName" : "example test",
+  "historyId" : "iPhone 11 webkit simplepage.spec.js example test",
+  "time" : {
+    "start" : 1632390992628,
+    "stop" : 1632391002327,
+    "duration" : 9699
+  },
+  "status" : "failed",
+  "statusMessage" : "C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\simplepage.spec.js-snapshots\\landing-iPhone-11-webkit-win32.png is missing in snapshots, writing actual.",
+  "statusTrace" : "\n    at C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\simplepage.spec.js:11:35\n    at WorkerRunner._runTestWithBeforeHooks (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\workerRunner.js:449:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\simplepage.spec.js-snapshots\\landing-iPhone-11-webkit-win32.png is missing in snapshots, writing actual.",
+    "statusTrace" : "\n    at C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\simplepage.spec.js:11:35\n    at WorkerRunner._runTestWithBeforeHooks (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\workerRunner.js:449:7)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1632390992629,
+        "stop" : 1632390993467,
+        "duration" : 838
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1632390992689,
+          "stop" : 1632390993467,
+          "duration" : 778
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "page.goto(https://store.staging.mosaiq-dev.de/)",
+      "time" : {
+        "start" : 1632390993468,
+        "stop" : 1632391002161,
+        "duration" : 8693
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "page.screenshot",
+      "time" : {
+        "start" : 1632391002163,
+        "stop" : 1632391002276,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expect.toMatchSnapshot",
+      "time" : {
+        "start" : 1632391002276,
+        "stop" : 1632391002282,
+        "duration" : 6
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1632391002283,
+        "stop" : 1632391002327,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1632391002285,
+          "stop" : 1632391002313,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "3b9a5de359660692",
+      "name" : "video",
+      "source" : "3b9a5de359660692.webm",
+      "type" : "video/webm",
+      "size" : 59161
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "iPhone 11 webkit"
+  }, {
+    "name" : "suite",
+    "value" : "simplepage.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "376c82dd0ac1f87e.json",
+  "parameterValues" : [ ]
+}

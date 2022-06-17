@@ -1,0 +1,203 @@
+{
+  "uid" : "88d20defc4241716",
+  "name" : "example test",
+  "fullName" : "example test",
+  "historyId" : "Pixel 4 chrome simplepage.spec.js example test",
+  "time" : {
+    "start" : 1632398852033,
+    "stop" : 1632398857557,
+    "duration" : 5524
+  },
+  "status" : "failed",
+  "statusMessage" : "Snapshot comparison failed:\n\nExpected: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-Pixel-4-chrome\\landing-expected.png\nReceived: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-Pixel-4-chrome\\landing-actual.png\n    Diff: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-Pixel-4-chrome\\landing-diff.png",
+  "statusTrace" : "\n    at C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\simplepage.spec.js:11:35\n    at WorkerRunner._runTestWithBeforeHooks (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\workerRunner.js:449:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Snapshot comparison failed:\n\nExpected: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-Pixel-4-chrome\\landing-expected.png\nReceived: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-Pixel-4-chrome\\landing-actual.png\n    Diff: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-Pixel-4-chrome\\landing-diff.png",
+    "statusTrace" : "\n    at C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\simplepage.spec.js:11:35\n    at WorkerRunner._runTestWithBeforeHooks (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\workerRunner.js:449:7)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1632398852033,
+        "stop" : 1632398852282,
+        "duration" : 249
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1632398852045,
+          "stop" : 1632398852282,
+          "duration" : 237
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "page.goto(https://store.staging.mosaiq-dev.de/)",
+      "time" : {
+        "start" : 1632398852283,
+        "stop" : 1632398856277,
+        "duration" : 3994
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "page.screenshot",
+      "time" : {
+        "start" : 1632398856278,
+        "stop" : 1632398856572,
+        "duration" : 294
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expect.toMatchSnapshot",
+      "time" : {
+        "start" : 1632398856573,
+        "stop" : 1632398857429,
+        "duration" : 856
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1632398857430,
+        "stop" : 1632398857557,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1632398857431,
+          "stop" : 1632398857549,
+          "duration" : 118
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "3a5d5eec27671040",
+      "name" : "expected",
+      "source" : "3a5d5eec27671040.png",
+      "type" : "image/png",
+      "size" : 86136
+    }, {
+      "uid" : "d77d02661c3123d4",
+      "name" : "actual",
+      "source" : "d77d02661c3123d4.png",
+      "type" : "image/png",
+      "size" : 84285
+    }, {
+      "uid" : "438f572cff7de58a",
+      "name" : "diff",
+      "source" : "438f572cff7de58a.png",
+      "type" : "image/png",
+      "size" : 72753
+    }, {
+      "uid" : "4a0de048c20eaba7",
+      "name" : "video",
+      "source" : "4a0de048c20eaba7.webm",
+      "type" : "video/webm",
+      "size" : 96585
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Pixel 4 chrome"
+  }, {
+    "name" : "suite",
+    "value" : "simplepage.spec.js"
+  }, {
+    "name" : "testType",
+    "value" : "screenshotDiff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "527dfe5cca354e99",
+      "status" : "failed",
+      "statusDetails" : "C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\simplepage.spec.js-snapshots\\landing-Pixel-4-chrome-win32.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1632390992231,
+        "stop" : 1632391002555,
+        "duration" : 10324
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "88d20defc4241716.json",
+  "parameterValues" : [ ]
+}

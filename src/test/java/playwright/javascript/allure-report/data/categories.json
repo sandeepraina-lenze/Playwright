@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "browser.newContext: options.isMobile is not supported in Firefox",
+      "children" : [ {
+        "name" : "basic test",
+        "uid" : "8f0d41ecfaa04f0f",
+        "parentUid" : "f58ca55625e91de4f9bf2c594c23fcef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632398847389,
+          "stop" : 1632398851812,
+          "duration" : 4423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "example test",
+        "uid" : "b3d302671be40d7d",
+        "parentUid" : "f58ca55625e91de4f9bf2c594c23fcef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632398858411,
+          "stop" : 1632398859923,
+          "duration" : 1512
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f58ca55625e91de4f9bf2c594c23fcef"
+    }, {
+      "name" : "Snapshot comparison failed:\n\nExpected: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-Pixel-4-chrome\\landing-expected.png\nReceived: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-Pixel-4-chrome\\landing-actual.png\n    Diff: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-Pixel-4-chrome\\landing-diff.png",
+      "children" : [ {
+        "name" : "example test",
+        "uid" : "88d20defc4241716",
+        "parentUid" : "3b0867e2473af9a98d04bed08e5d85ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632398852033,
+          "stop" : 1632398857557,
+          "duration" : 5524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b0867e2473af9a98d04bed08e5d85ae"
+    }, {
+      "name" : "Snapshot comparison failed:\n\nExpected: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-iPhone-11-chrome\\landing-expected.png\nReceived: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-iPhone-11-chrome\\landing-actual.png\n    Diff: C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\test-results\\simplepage-example-test-iPhone-11-chrome\\landing-diff.png",
+      "children" : [ {
+        "name" : "example test",
+        "uid" : "12996898b0c84277",
+        "parentUid" : "ccb457d4dfcf4bf87348c4b0d588dcf3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632398852382,
+          "stop" : 1632398857194,
+          "duration" : 4812
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ccb457d4dfcf4bf87348c4b0d588dcf3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

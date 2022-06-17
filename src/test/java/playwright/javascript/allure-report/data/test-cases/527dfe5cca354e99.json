@@ -1,0 +1,167 @@
+{
+  "uid" : "527dfe5cca354e99",
+  "name" : "example test",
+  "fullName" : "example test",
+  "historyId" : "Pixel 4 chrome simplepage.spec.js example test",
+  "time" : {
+    "start" : 1632390992231,
+    "stop" : 1632391002555,
+    "duration" : 10324
+  },
+  "status" : "failed",
+  "statusMessage" : "C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\simplepage.spec.js-snapshots\\landing-Pixel-4-chrome-win32.png is missing in snapshots, writing actual.",
+  "statusTrace" : "\n    at C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\simplepage.spec.js:11:35\n    at WorkerRunner._runTestWithBeforeHooks (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\workerRunner.js:449:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\simplepage.spec.js-snapshots\\landing-Pixel-4-chrome-win32.png is missing in snapshots, writing actual.",
+    "statusTrace" : "\n    at C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\simplepage.spec.js:11:35\n    at WorkerRunner._runTestWithBeforeHooks (C:\\Users\\raina\\IdeaProjects\\Playwright\\src\\test\\java\\playwright\\javascript\\node_modules\\@playwright\\test\\lib\\test\\workerRunner.js:449:7)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1632390992231,
+        "stop" : 1632390992538,
+        "duration" : 307
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1632390992239,
+          "stop" : 1632390992538,
+          "duration" : 299
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "page.goto(https://store.staging.mosaiq-dev.de/)",
+      "time" : {
+        "start" : 1632390992539,
+        "stop" : 1632391002054,
+        "duration" : 9515
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "page.screenshot",
+      "time" : {
+        "start" : 1632391002055,
+        "stop" : 1632391002424,
+        "duration" : 369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expect.toMatchSnapshot",
+      "time" : {
+        "start" : 1632391002424,
+        "stop" : 1632391002442,
+        "duration" : 18
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1632391002443,
+        "stop" : 1632391002555,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1632391002450,
+          "stop" : 1632391002544,
+          "duration" : 94
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "4cec5a6a73228ef3",
+      "name" : "video",
+      "source" : "4cec5a6a73228ef3.webm",
+      "type" : "video/webm",
+      "size" : 132409
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Pixel 4 chrome"
+  }, {
+    "name" : "suite",
+    "value" : "simplepage.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "527dfe5cca354e99.json",
+  "parameterValues" : [ ]
+}
